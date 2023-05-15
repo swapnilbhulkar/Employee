@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>search by id</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	crossorigin="anonymous"></script>
+<style>
+h1 {
+	text-align: center;
+	margin: 50px;
+}
+
+.form-control {
+	margin: 10px auto 10px auto;
+	width: 500px;
+}
+
+label {
+	font-size: 17px;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
+	text-align: center;
+}
+
+.btn {
+	margin: 20px 0px 0px 10px;
+	box-shadow: 2px 2px 5px black;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>SEARCH EMPLOYEE BY ID </h1>
+		<form action="search_id" method="post">
+			<div class="form-group">
+				<label>ENTER EMPLOYEE ID</label> <input type="text" name="empid"
+					class="form-control" />
+			</div>
+			<div class="form-group">
+				<input type="submit" value="SEARCH" class="btn btn-primary">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
